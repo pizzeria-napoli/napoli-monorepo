@@ -1,42 +1,42 @@
-import nx from '@nx/eslint-plugin';
+// eslint.config.mjs
 
-export default [
-  ...nx.configs['flat/base'],
-  ...nx.configs['flat/typescript'],
-  ...nx.configs['flat/javascript'],
+import nxPlugin from "@nx/eslint-plugin";
+
+/**
+ * @type {import('eslint').Linter.FlatConfig[]}
+ * @description
+ * Configuración ESLint raíz para el monorepo.
+ * Su única responsabilidad es gestionar las reglas de todo el espacio de trabajo,
+ * como las fronteras entre módulos de Nx.
+ * Las configuraciones específicas de proyectos (React, Next.js) se gestionan
+ * en los archivos eslint.config.mjs de cada proyecto.
+ */
+const rootConfig = [
   {
-    ignores: ['**/dist'],
+    plugins: {
+      "@nx": nxPlugin,
+    },
   },
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    // Las reglas de boundaries de Nx se aplican a los archivos de código fuente
+    // para asegurar que las dependencias entre proyectos son correctas.
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
-      '@nx/enforce-module-boundaries': [
-        'error',
+      "@nx/enforce-module-boundaries": [
+        "error",
         {
           enforceBuildableLibDependency: true,
-          allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$'],
+          allow: [],
           depConstraints: [
             {
-              sourceTag: '*',
-              onlyDependOnLibsWithTags: ['*'],
+              sourceTag: "*",
+              onlyDependOnLibsWithTags: ["*"],
             },
           ],
         },
       ],
     },
   },
-  {
-    files: [
-      '**/*.ts',
-      '**/*.tsx',
-      '**/*.cts',
-      '**/*.mts',
-      '**/*.js',
-      '**/*.jsx',
-      '**/*.cjs',
-      '**/*.mjs',
-    ],
-    // Override or add rules here
-    rules: {},
-  },
 ];
+
+export default rootConfig;

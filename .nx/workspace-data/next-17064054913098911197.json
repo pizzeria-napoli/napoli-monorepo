@@ -1,0 +1,522 @@
+{
+  "1295542350370551774": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "10104809934725218493": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "8850945718785060307": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "16155724682183404870": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "13793793492087474396": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "2632494305949031823": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "4367211818851070466": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  },
+  "8122796291993623821": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "napoli-pwa",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+        "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "napoli-pwa"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "napoli-pwa"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
+    }
+  }
+}
