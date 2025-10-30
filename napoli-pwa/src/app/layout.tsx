@@ -1,6 +1,10 @@
+// napoli-pwa/src/app/layout.tsx
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+// SIN REGRESIONES: La importación del CSS de Leaflet ha sido eliminada.
+
 import { ThemeProvider } from "./components/theme-provider";
 import { Header } from "./components/layout/Header";
 import { Footer } from "./components/layout/Footer";

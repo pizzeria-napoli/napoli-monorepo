@@ -29,89 +29,25 @@
       }
     },
     {
-      "name": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    },
-    {
       "name": "@nx/eslint/plugin",
       "options": {
         "targetName": "lint"
-      }
-    },
-    {
-      "name": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
       }
     }
   ],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "18381147985760447715"
-      },
-      {
-        "file": "README.md",
-        "hash": "7187600589018277345"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "15257874146256109495"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "16582136680635935809"
-      },
-      {
-        "file": "package.json",
-        "hash": "13505476463537121733"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "9134231155409267263"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "16492601655866789305"
-      },
-      {
-        "file": "eslint.config.mjs.md",
-        "hash": "9162807372325761004"
-      },
-      {
         "file": ".github/workflows/ci.yml",
         "hash": "7725873038738926441"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "17432272996252744211"
-      },
-      {
-        "file": "error.log",
-        "hash": "13790753209625932028"
-      },
-      {
         "file": ".gitignore",
-        "hash": "1235412395327563553"
+        "hash": "6625753218873338395"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "10117111808949871792"
-      },
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
+        "file": ".prettierignore",
+        "hash": "15257874146256109495"
       },
       {
         "file": ".prettierrc",
@@ -120,126 +56,54 @@
       {
         "file": ".vscode/extensions.json",
         "hash": "11309362834336059819"
+      },
+      {
+        "file": "README.md",
+        "hash": "7187600589018277345"
+      },
+      {
+        "file": "error.log",
+        "hash": "13790753209625932028"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "6442913580308126932"
+      },
+      {
+        "file": "eslint.config.mjs.md",
+        "hash": "9162807372325761004"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5355685064407896916"
+      },
+      {
+        "file": "package.json",
+        "hash": "13505476463537121733"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16492601655866789305"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "17432272996252744211"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18381147985760447715"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3789172019937377378"
       }
     ],
     "projectFileMap": {
-      "napoli-pwa-e2e": [
-        {
-          "file": "napoli-pwa-e2e/eslint.config.mjs",
-          "hash": "9406519109376614868",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "napoli-pwa-e2e/playwright.config.ts",
-          "hash": "17214449292378597673",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "napoli-pwa-e2e/project.json",
-          "hash": "9454345817952141682"
-        },
-        {
-          "file": "napoli-pwa-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "napoli-pwa-e2e/tsconfig.json",
-          "hash": "8714607179129573500"
-        }
-      ],
       "napoli-pwa": [
-        {
-          "file": "napoli-pwa/.next/app-build-manifest.json",
-          "hash": "6642808631538785885"
-        },
-        {
-          "file": "napoli-pwa/.next/build-manifest.json",
-          "hash": "2702609462139627143"
-        },
-        {
-          "file": "napoli-pwa/.next/cache/.rscinfo",
-          "hash": "17245477678678911169"
-        },
-        {
-          "file": "napoli-pwa/.next/package.json",
-          "hash": "11338307439248427064"
-        },
-        {
-          "file": "napoli-pwa/.next/react-loadable-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/app-paths-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/interception-route-rewrite-manifest.js",
-          "hash": "10484309360224763022"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-build-manifest.js",
-          "hash": "10087042376963020870"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-manifest.json",
-          "hash": "9889576824779923310"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-react-loadable-manifest.js",
-          "hash": "9185069726031651908"
-        },
-        {
-          "file": "napoli-pwa/.next/server/next-font-manifest.js",
-          "hash": "16541577805185552134"
-        },
-        {
-          "file": "napoli-pwa/.next/server/next-font-manifest.json",
-          "hash": "11891788324563068681"
-        },
-        {
-          "file": "napoli-pwa/.next/server/pages-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/server-reference-manifest.js",
-          "hash": "13062913855343812063"
-        },
-        {
-          "file": "napoli-pwa/.next/server/server-reference-manifest.json",
-          "hash": "7930161490827576877"
-        },
-        {
-          "file": "napoli-pwa/.next/static/development/_buildManifest.js",
-          "hash": "13063724784290855366"
-        },
-        {
-          "file": "napoli-pwa/.next/static/development/_ssgManifest.js",
-          "hash": "17018243955171961484"
-        },
-        {
-          "file": "napoli-pwa/.next/trace",
-          "hash": "14569989572714086998"
-        },
-        {
-          "file": "napoli-pwa/.next/types/cache-life.d.ts",
-          "hash": "12858368115349027927",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "napoli-pwa/.next/types/package.json",
-          "hash": "6094546126370684104"
-        },
         {
           "file": "napoli-pwa/eslint.config.mjs",
           "hash": "18070635558624471379",
@@ -258,14 +122,6 @@
         {
           "file": "napoli-pwa/index.d.ts",
           "hash": "5498222895072842432"
-        },
-        {
-          "file": "napoli-pwa/jest.config.ts",
-          "hash": "7176430008153811910",
-          "deps": [
-            "npm:jest",
-            "npm:next"
-          ]
         },
         {
           "file": "napoli-pwa/next.config.mjs",
@@ -351,7 +207,7 @@
           "hash": "8693907691488291457"
         },
         {
-          "file": "napoli-pwa/public/images/hero/chef-preparando-pizza-1920x1080.jpg.jpg",
+          "file": "napoli-pwa/public/images/hero/chef-preparando-pizza-1920x1080.jpg",
           "hash": "2274381906639852701"
         },
         {
@@ -545,7 +401,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/ui/GoogleMap.tsx",
-          "hash": "16573825957828892745",
+          "hash": "7708306351619851137",
           "deps": [
             "npm:@react-google-maps/api",
             "npm:react"
@@ -578,7 +434,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/ui/PaymentMethods.tsx",
-          "hash": "16307072877512928270",
+          "hash": "18398767530551804569",
           "deps": [
             "npm:next",
             "npm:next-themes"
@@ -642,7 +498,7 @@
         },
         {
           "file": "napoli-pwa/src/app/globals.css",
-          "hash": "8246574263520472201"
+          "hash": "4141728142110368165"
         },
         {
           "file": "napoli-pwa/src/app/hooks/use-is-mounted.ts",
@@ -653,7 +509,7 @@
         },
         {
           "file": "napoli-pwa/src/app/layout.tsx",
-          "hash": "1687054147965520535",
+          "hash": "16781745898359647090",
           "deps": [
             "npm:next"
           ]

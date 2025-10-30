@@ -1,5 +1,5 @@
 {
-  "6800881335368006080": {
+  "10552888228580016284": {
     "build": {
       "command": "next build",
       "options": {
@@ -64,7 +64,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "4407498060643196048": {
+  "8743709466533029776": {
     "build": {
       "command": "next build",
       "options": {
@@ -129,7 +129,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "6430028879624265977": {
+  "5739705059278417776": {
     "build": {
       "command": "next build",
       "options": {
@@ -194,7 +194,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "7687073684080753547": {
+  "13070353495460107908": {
     "build": {
       "command": "next build",
       "options": {
@@ -259,7 +259,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "16597450771246174564": {
+  "5930531290992820225": {
     "build": {
       "command": "next build",
       "options": {
@@ -324,7 +324,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "15647537701249357710": {
+  "1884797220009901062": {
     "build": {
       "command": "next build",
       "options": {
@@ -389,7 +389,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "12043706441223375615": {
+  "17238524284037149338": {
     "build": {
       "command": "next build",
       "options": {
@@ -454,7 +454,7 @@
       "command": "pnpm exec nx watch --projects napoli-pwa --includeDependentProjects -- pnpm exec nx build-deps napoli-pwa"
     }
   },
-  "13886105548089675353": {
+  "5606173717476141900": {
     "build": {
       "command": "next build",
       "options": {

@@ -5,8 +5,8 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { IMAGES } from "../../lib/images";
+import { useIsMounted } from "../../hooks/use-is-mounted"; // Se importa nuestro hook soberano
 
-// PILAR #2: Definición de tipo explícita.
 interface PaymentMethod {
   name: string;
   src?: string;
@@ -16,6 +16,14 @@ interface PaymentMethod {
 
 export function PaymentMethods() {
   const { resolvedTheme } = useTheme();
+  const isMounted = useIsMounted(); // Se utiliza el hook
+
+  // NIVELACIÓN SOBERANA Y DEFINITIVA: Guardián de Hidratación
+  // Si el componente aún no está montado en el cliente, no renderizamos nada
+  // para asegurar que el HTML del servidor y el del cliente coincidan perfectamente.
+  if (!isMounted) {
+    return null; // O un esqueleto/placeholder si se prefiere
+  }
 
   return (
     <div className="flex items-center justify-center gap-2 md:justify-end">

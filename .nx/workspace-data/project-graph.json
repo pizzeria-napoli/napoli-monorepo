@@ -1,283 +1,5 @@
 {
   "nodes": {
-    "napoli-pwa-e2e": {
-      "name": "napoli-pwa-e2e",
-      "type": "e2e",
-      "data": {
-        "root": "napoli-pwa-e2e",
-        "targets": {
-          "typecheck": {
-            "dependsOn": [
-              "^typecheck"
-            ],
-            "options": {
-              "cwd": "napoli-pwa-e2e",
-              "command": "tsc --build --emitDeclarationOnly"
-            },
-            "cache": true,
-            "inputs": [
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/**/*.ts",
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/playwright.config.ts",
-              "{projectRoot}/src/**/*.spec.ts",
-              "{projectRoot}/src/**/*.spec.js",
-              "{projectRoot}/src/**/*.test.ts",
-              "{projectRoot}/src/**/*.test.js",
-              "{projectRoot}/src/**/*.d.ts",
-              "^production"
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
-              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
-              "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
-            ],
-            "syncGenerators": [
-              "@nx/js:typescript-sync"
-            ],
-            "metadata": {
-              "technologies": [
-                "typescript"
-              ],
-              "description": "Runs type-checking for the project.",
-              "help": {
-                "command": "pnpm exec tsc --build --help",
-                "example": {
-                  "args": [
-                    "--force"
-                  ]
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "e2e": {
-            "options": {
-              "cwd": "napoli-pwa-e2e",
-              "command": "playwright test"
-            },
-            "metadata": {
-              "technologies": [
-                "playwright"
-              ],
-              "description": "Runs Playwright Tests",
-              "help": {
-                "command": "pnpm exec playwright test --help",
-                "example": {
-                  "options": {
-                    "workers": 1
-                  }
-                }
-              }
-            },
-            "dependsOn": [
-              {
-                "projects": [
-                  "napoli-pwa"
-                ],
-                "target": "start"
-              }
-            ],
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "@playwright/test"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/test-output",
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/playwright-report"
-            ],
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "e2e-ci--src/example.spec.ts": {
-            "options": {
-              "cwd": "napoli-pwa-e2e",
-              "env": {
-                "PLAYWRIGHT_HTML_OUTPUT_DIR": "..\\dist\\.playwright\\napoli-pwa-e2e\\playwright-report\\src-example-spec-ts",
-                "PLAYWRIGHT_HTML_REPORT": "..\\dist\\.playwright\\napoli-pwa-e2e\\playwright-report\\src-example-spec-ts"
-              },
-              "command": "playwright test src/example.spec.ts --output=..\\dist\\.playwright\\napoli-pwa-e2e\\test-output\\src-example-spec-ts"
-            },
-            "metadata": {
-              "technologies": [
-                "playwright"
-              ],
-              "description": "Runs Playwright Tests in src/example.spec.ts in CI",
-              "help": {
-                "command": "pnpm exec playwright test --help",
-                "example": {
-                  "options": {
-                    "workers": 1
-                  }
-                }
-              }
-            },
-            "dependsOn": [
-              {
-                "projects": [
-                  "napoli-pwa"
-                ],
-                "target": "start"
-              }
-            ],
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "@playwright/test"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/test-output/src-example-spec-ts",
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/playwright-report/src-example-spec-ts"
-            ],
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "e2e-ci": {
-            "executor": "nx:noop",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "@playwright/test"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/test-output",
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/playwright-report"
-            ],
-            "dependsOn": [
-              {
-                "target": "e2e-ci--src/example.spec.ts",
-                "projects": "self",
-                "params": "forward",
-                "options": "forward"
-              }
-            ],
-            "metadata": {
-              "technologies": [
-                "playwright"
-              ],
-              "description": "Runs Playwright Tests in CI",
-              "nonAtomizedTarget": "e2e",
-              "help": {
-                "command": "pnpm exec playwright test --help",
-                "example": {
-                  "options": {
-                    "workers": 1
-                  }
-                }
-              }
-            },
-            "configurations": {},
-            "options": {},
-            "parallelism": true
-          },
-          "e2e-ci--merge-reports": {
-            "executor": "@nx/playwright:merge-reports",
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "@playwright/test"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/.playwright/napoli-pwa-e2e/playwright-report"
-            ],
-            "options": {
-              "config": "playwright.config.ts",
-              "expectedSuites": 1
-            },
-            "metadata": {
-              "technologies": [
-                "playwright"
-              ],
-              "description": "Merges Playwright blob reports from atomized tasks to produce unified reports for the configured reporters."
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "lint": {
-            "cache": true,
-            "options": {
-              "cwd": "napoli-pwa-e2e",
-              "command": "eslint ."
-            },
-            "inputs": [
-              "default",
-              "^default",
-              "{workspaceRoot}/eslint.config.mjs",
-              "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-              "{workspaceRoot}/tools/eslint-rules/**/*",
-              {
-                "externalDependencies": [
-                  "eslint"
-                ]
-              }
-            ],
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "metadata": {
-              "technologies": [
-                "eslint"
-              ],
-              "description": "Runs ESLint on project",
-              "help": {
-                "command": "pnpm exec eslint --help",
-                "example": {
-                  "options": {
-                    "max-warnings": 0
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          }
-        },
-        "metadata": {
-          "targetGroups": {
-            "E2E (CI)": [
-              "e2e-ci--src/example.spec.ts",
-              "e2e-ci",
-              "e2e-ci--merge-reports"
-            ]
-          }
-        },
-        "name": "napoli-pwa-e2e",
-        "$schema": "../node_modules/nx/schemas/project-schema.json",
-        "projectType": "application",
-        "sourceRoot": "napoli-pwa-e2e/src",
-        "tags": [],
-        "implicitDependencies": [
-          "napoli-pwa"
-        ]
-      }
-    },
     "napoli-pwa": {
       "name": "napoli-pwa",
       "type": "app",
@@ -361,43 +83,6 @@
           "lint": {
             "executor": "@nx/eslint:lint",
             "options": {},
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "options": {
-              "cwd": "napoli-pwa",
-              "env": {
-                "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"commonjs\",\"customConditions\":null}"
-              },
-              "command": "jest"
-            },
-            "metadata": {
-              "technologies": [
-                "jest"
-              ],
-              "description": "Run Jest Tests",
-              "help": {
-                "command": "pnpm exec jest --help",
-                "example": {
-                  "options": {
-                    "coverage": true
-                  }
-                }
-              }
-            },
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "jest"
-                ]
-              }
-            ],
-            "outputs": [],
-            "executor": "nx:run-commands",
             "configurations": {},
             "parallelism": true
           },
@@ -16535,39 +16220,7 @@
     }
   },
   "dependencies": {
-    "napoli-pwa-e2e": [
-      {
-        "source": "napoli-pwa-e2e",
-        "target": "napoli-pwa",
-        "type": "implicit"
-      },
-      {
-        "source": "napoli-pwa-e2e",
-        "target": "npm:eslint-plugin-playwright",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa-e2e",
-        "target": "npm:@playwright/test",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa-e2e",
-        "target": "npm:@nx/playwright",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa-e2e",
-        "target": "npm:@nx/devkit",
-        "type": "static"
-      }
-    ],
     "napoli-pwa": [
-      {
-        "source": "napoli-pwa",
-        "target": "npm:next",
-        "type": "static"
-      },
       {
         "source": "napoli-pwa",
         "target": "npm:@eslint/js",
@@ -16595,11 +16248,6 @@
       },
       {
         "source": "napoli-pwa",
-        "target": "npm:jest",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa",
         "target": "npm:@nx/next",
         "type": "static"
       },
@@ -16611,6 +16259,11 @@
       {
         "source": "napoli-pwa",
         "target": "npm:@testing-library/react",
+        "type": "static"
+      },
+      {
+        "source": "napoli-pwa",
+        "target": "npm:next",
         "type": "static"
       },
       {
@@ -39779,5 +39432,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761785842487
+  "computedAt": 1761797594998
 }
