@@ -1,36 +1,29 @@
-// napoli-pwa/eslint.config.mjs
+// eslint.config.mjs (Archivo en la raíz del monorepo)
 
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import js from "@eslint/js";
-import nx from "@nx/eslint-plugin";
-import typescriptEslint from "typescript-eslint";
-import nextPlugin from "@next/eslint-plugin-next";
-import prettierConfig from "eslint-config-prettier";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
+import nxPlugin from "@nx/eslint-plugin";
 
 /**
  * @type {import('eslint').Linter.FlatConfig[]}
+ * @description
+ * Configuración ESLint raíz para el monorepo.
+ * Su única responsabilidad es gestionar las reglas de todo el espacio de trabajo
+ * y definir qué archivos de configuración de la raíz deben ser ignorados.
  */
-const config = [
-  // Base configs
-  js.configs.recommended,
-  ...typescriptEslint.configs.recommended,
-
-  // LA NIVELACIÓN DEFINITIVA: Se añade el contexto del parser de TypeScript.
+const rootConfig = [
+  // NIVELACIÓN SOBERANA Y DEFINITIVA: Se ignora explícitamente a sí mismo y a otros
+  // archivos de configuración de la raíz para evitar conflictos de análisis.
   {
-    languageOptions: {
-      parserOptions: {
-        project: true,
-        tsconfigRootDir: __dirname,
-      },
+    ignores: ["jest.config.ts", "jest.preset.js"],
+  },
+  {
+    plugins: {
+      "@nx": nxPlugin,
     },
   },
-
-  // Configuración de Nx
   {
-    plugins: { "@nx": nx },
+    // Las reglas de boundaries de Nx se aplican a los archivos de código fuente
+    // para asegurar que las dependencias entre proyectos son correctas.
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
       "@nx/enforce-module-boundaries": [
         "error",
@@ -38,33 +31,15 @@ const config = [
           enforceBuildableLibDependency: true,
           allow: [],
           depConstraints: [
-            { sourceTag: "*", onlyDependOnLibsWithTags: ["*"] },
+            {
+              sourceTag: "*",
+              onlyDependOnLibsWithTags: ["*"],
+            },
           ],
         },
       ],
     },
   },
-
-  // Configuración de React/TypeScript de Nx
-  ...nx.configs["flat/react-typescript"],
-
-  // Configuración de Next.js
-  {
-    files: ["**/*.{js,jsx,ts,tsx}"],
-    plugins: { "@next/next": nextPlugin },
-    rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...nextPlugin.configs["core-web-vitals"].rules,
-    },
-  },
-
-  // Ignorar archivos de configuración
-  {
-    ignores: [".next/**/*", "**/*.config.js", "**/*.config.mjs", "jest.preset.js"],
-  },
-
-  // Integración con Prettier (última)
-  prettierConfig,
 ];
 
-export default config;
+export default rootConfig;
