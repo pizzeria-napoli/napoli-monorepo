@@ -141,4 +141,5 @@ Este README fue generado con la asistencia de IA y está alineado con la documen
 
 ---
 
-Author: RaZ Podestá - MetaShark Tech.
+Author: RaZ Podestá - MetaShark Tech
+year: 2025
