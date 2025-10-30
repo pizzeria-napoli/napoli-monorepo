@@ -1,0 +1,676 @@
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.706Z - Started listening on: \\.\pipe\nx\C:\Users\VAIO\AppData\Local\Temp\6edd24d3233e7d6397c4\d.sock
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.719Z - [WATCHER]: Subscribed to changes within: C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo (native)
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.731Z - Established a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.733Z - Established a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.739Z - Closed a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:03.747Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 13520 code loading' 49.45750000000001
+Time for 'plugin worker 17200 code loading' 42.03569999999999
+Time for 'plugin worker 14108 code loading' 39.82409999999999
+Time for 'plugin worker 11584 code loading' 26.874600000000015
+Time for 'plugin worker 15336 code loading' 23.78309999999999
+Time for 'plugin worker 15540 code loading' 36.46430000000001
+Time for 'plugin worker 14672 code loading' 110.4716
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:07.042Z - Time taken for 'Load Nx Plugin: C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\plugins\package-json' 3247.0709000000006ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:07.345Z - Time taken for 'Load Nx Plugin: C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 3549.388ms
+Time for 'plugin worker 8296 code loading' 118.0873
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:07.540Z - Time taken for 'loadDefaultNxPlugins' 3748.9782999999998ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.044Z - Time taken for 'Load Nx Plugin: @nx/js/typescript' 4293.082ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.415Z - Time taken for 'Load Nx Plugin: @nx/jest/plugin' 4630.8683ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.558Z - Time taken for 'Load Nx Plugin: @nx/next/plugin' 4797.6963ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.569Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 4792.669900000001ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.591Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.591Z - [REQUEST]: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.592Z - [REQUEST]: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.601Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+Time for 'nx/core/project-json:createNodes' 2.138500000000022
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.658Z - Time taken for 'loadSpecifiedNxPlugins' 4838.7848ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.661Z - Established a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.662Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.663Z - Established a connection. Number of open connections: 4
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.664Z - Established a connection. Number of open connections: 5
+Time for 'nx/core/package-json:createNodes' 21.39220000000023
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.668Z - Closed a connection. Number of open connections: 4
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.668Z - Closed a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.668Z - Closed a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.700Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.702Z - Established a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.703Z - Established a connection. Number of open connections: 4
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.703Z - Established a connection. Number of open connections: 5
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.704Z - Established a connection. Number of open connections: 6
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.704Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.705Z - Handled json message HASH_GLOB. Handling time: 27. Response time: 6.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.705Z - Closed a connection. Number of open connections: 5
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.726Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.732Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+Time for 'total for sendMessageToDaemon()' 85.35850000000028
+Time for 'deserialize daemon response' 0.2956000000003769
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.739Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.740Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.740Z - Handled json message GLOB. Handling time: 18. Response time: 14.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.740Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.741Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 10.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.747Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.748Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.748Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 9.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.748Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:08.749Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 2.
+Time for 'total for sendMessageToDaemon()' 80.97950000000037
+Time for 'deserialize daemon response' 0.3275000000003274
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 1043.2666
+Time for '@nx/js/typescript:createNodes' 1179.9786000000004
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/next/plugin:createNodes' 2426.2298
+Time for 'total for sendMessageToDaemon()' 15.097899999999754
+Time for 'deserialize daemon response' 0.06549999999970169
+Time for '@nx/jest/plugin:createNodes' 9637.7001
+Time for 'total for sendMessageToDaemon()' 35.16870000000017
+Time for 'deserialize daemon response' 0.2422999999998865
+Time for 'total for sendMessageToDaemon()' 70.29089999999997
+Time for 'deserialize daemon response' 0.23770000000058644
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:27.656Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:27.656Z - Done responding to the client handleNxWorkspaceFiles
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:27.657Z - Handled json message GET_FILES_IN_DIRECTORY. Handling time: 1. Response time: 1.
+Time for '@nx/playwright/plugin:createNodes' 19053.3692
+Time for 'total for sendMessageToDaemon()' 42.02729999999792
+Time for 'deserialize daemon response' 0.07569999999759602
+Time for '@nx/eslint/plugin:createNodes' 24430.9749
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.354Z - Time taken for 'build-project-configs' 24696.907900000002ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.356Z - Time taken for '@nx/js/typescript:createDependencies' 12.954299999997602ms
+Time for 'build typescript dependencies' 167.5589
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.634Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.636Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.660Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.661Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.663Z - Time taken for 'total for creating and serializing project graph' 29913.2065ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.665Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.665Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 29914. Response time: 4.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.688Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.688Z - Time taken for 'preTasksExecution' 2.0534000000006927ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.689Z - Done responding to the client handleRunPreTasksExecution
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.689Z - Handled json message PRE_TASKS_EXECUTION. Handling time: 3. Response time: 1.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:33.743Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.556Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.604Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+DEBUG nx::native::tasks::hash_planner: get_plans_internal COMPLETED in 9.4968ms - processed 1 tasks (setup: 6.7907ms, parallel_planning: 2.6898ms)
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "1235412395327563553" (".gitignore") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Adding "9134231155409267263" ("nx.json") to hash
+DEBUG nx::native::tasks::hashers::hash_workspace_files: Hashing workspace fileset{cache_key="nx.json,.gitignore,.nxignore"}: Hash Value: "459919662190422518"
+DEBUG nx::native::tasks::task_hasher: hash_plans COMPLETED in 11.7758ms - processed 1 plans (setup: 641.8µs, hashing: 11.1282ms, assembly: 4.7599ms)
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.648Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.649Z - Established a connection. Number of open connections: 6
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.649Z - Established a connection. Number of open connections: 7
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.650Z - Time taken for 'write cache' 47.608400000000984ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.650Z - Closed a connection. Number of open connections: 6
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.651Z - Done responding to the client handleHashTasks
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.651Z - Handled json message HASH_TASKS. Handling time: 92. Response time: 4.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.654Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.657Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.681Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.681Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.683Z - Time taken for 'total for creating and serializing project graph' 27.46519999999873ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.705Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.705Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 960.4552000000003ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.706Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:34.706Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 27. Response time: 25.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:38.325Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:38.325Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:38.325Z - Handled json message GET_ESTIMATED_TASK_TIMINGS. Handling time: 8. Response time: 0.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:45.951Z - Established a connection. Number of open connections: 7
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:45.953Z - Closed a connection. Number of open connections: 6
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:45.956Z - Established a connection. Number of open connections: 7
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:45.995Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:45.997Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:46.026Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:46.026Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:46.029Z - Time taken for 'total for creating and serializing project graph' 30.622300000002724ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:46.030Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:56:46.030Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 31. Response time: 4.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.242Z - Established a connection. Number of open connections: 8
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.244Z - Closed a connection. Number of open connections: 7
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.246Z - Established a connection. Number of open connections: 8
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.285Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.287Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.316Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.316Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.319Z - Time taken for 'total for creating and serializing project graph' 31.030299999998533ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.320Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:00.320Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 31. Response time: 4.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.325Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.326Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.356Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.356Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.359Z - Time taken for 'total for creating and serializing project graph' 31.388299999998708ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.360Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:01.360Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 31. Response time: 4.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.059Z - [WATCHER]: napoli-pwa/.next/cache/.rscinfo was modified
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.060Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.163Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.163Z - [REQUEST]: napoli-pwa/.next/cache/.rscinfo
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.163Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 1.9197999999960302
+Time for 'nx/core/package-json:createNodes' 8.717199999999139
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.197Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 27.806600000003527
+Time for 'total for sendMessageToDaemon()' 20.506500000003143
+Time for 'deserialize daemon response' 0.07029999999940628
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.206Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 24.0054999999993
+Time for 'deserialize daemon response' 0.05580000000190921
+Time for '@nx/js/typescript:createNodes' 37.869800000000396
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 20.376499999998487
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.217Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.218Z - Time taken for 'hash changed files from watcher' 0.5614999999961583ms
+Time for '@nx/next/plugin:createNodes' 48.84019999999873
+Time for 'total for sendMessageToDaemon()' 32.866900000000896
+Time for 'deserialize daemon response' 0.06520000000455184
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.224Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.225Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.225Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 28.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.226Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.226Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 20.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.235Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.235Z - Handled json message GLOB. Handling time: 5. Response time: 18.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.239Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.239Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.239Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 15.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.242Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.243Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 4.
+Time for 'total for sendMessageToDaemon()' 18.449800000002142
+Time for 'deserialize daemon response' 0.05250000000523869
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/jest/plugin:createNodes' 108.66919999999664
+Time for 'total for sendMessageToDaemon()' 30.30489999999554
+Time for 'deserialize daemon response' 0.049699999995937105
+Time for '@nx/eslint/plugin:createNodes' 110.49459999999817
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.329Z - Time taken for 'build-project-configs' 134.00250000000233ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.332Z - Time taken for '@nx/js/typescript:createDependencies' 17.476800000004005ms
+Time for 'build typescript dependencies' 10.808299999996962
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.399Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.400Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.400Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.400Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.401Z - Time taken for 'total execution time for createProjectGraph()' 87.97379999999248ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.546Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.549Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.623Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.633Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.635Z - Recomputing project graph because of 1 updated and 1 deleted files.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.636Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.636Z - [REQUEST]: napoli-pwa/.next/package.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.636Z - [REQUEST]: napoli-pwa/.next/types
+Time for 'nx/core/project-json:createNodes' 1.0675000000046566
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.702Z - Time taken for 'hash changed files from watcher' 0.8080000000045402ms
+Time for 'nx/core/package-json:createNodes' 7.868099999999686
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 18.863900000003923
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.733Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 54.38670000000275
+Time for 'total for sendMessageToDaemon()' 48.12049999998999
+Time for 'deserialize daemon response' 0.05069999999250285
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.737Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 48.81359999999404
+Time for 'deserialize daemon response' 0.05439999999362044
+Time for '@nx/next/plugin:createNodes' 70.56059999999707
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.765Z - [REQUEST]: Responding to the client. handleGlob
+Time for 'total for sendMessageToDaemon()' 69.2048000000068
+Time for 'deserialize daemon response' 0.06769999999960419
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.772Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.781Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.781Z - Handled json message HASH_GLOB. Handling time: 27. Response time: 48.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.782Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.782Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 45.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.783Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.783Z - Handled json message GLOB. Handling time: 25. Response time: 18.
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/js/typescript:createNodes' 120.37200000000303
+Time for '@nx/jest/plugin:createNodes' 122.67120000000432
+Time for 'total for sendMessageToDaemon()' 68.3460999999952
+Time for 'deserialize daemon response' 0.04599999998754356
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.828Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.828Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.829Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 57.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.830Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.831Z - Handled json message HASH_GLOB. Handling time: 42. Response time: 3.
+Time for 'total for sendMessageToDaemon()' 59.56010000000242
+Time for 'deserialize daemon response' 0.05660000001080334
+Time for '@nx/eslint/plugin:createNodes' 194.30909999999858
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.930Z - Time taken for 'build-project-configs' 216.72759999999835ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:09.937Z - Time taken for '@nx/js/typescript:createDependencies' 24.08879999999772ms
+Time for 'build typescript dependencies' 19.18629999998666
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.080Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.081Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.082Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.082Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.120Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.120Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.122Z - Time taken for 'total for creating and serializing project graph' 487.5277999999962ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.174Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.174Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 550.1059999999998ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.175Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.175Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 487. Response time: 55.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.485Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.496Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.510Z - Reusing in-memory cached project graph because no files changed.
+ERROR (1) when writing 
+EPERM: operation not permitted, rename 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json~47104710' -> 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json'
+Error: EPERM: operation not permitted, rename 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json~47104710' -> 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json'
+    at renameSync (node:fs:1033:11)
+    at writeCache (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\project-graph\nx-deps-cache.js:155:38)
+    at getCachedSerializedProjectGraphPromise (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:74:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleRequestProjectGraph (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:204:14)
+    at async handleMessage (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:122:9)
+    at async C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:77:9
+ERROR (2) when writing 
+EPERM: operation not permitted, rename 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\source-maps.json~2b418ff9' -> 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\source-maps.json'
+Error: EPERM: operation not permitted, rename 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\source-maps.json~2b418ff9' -> 'C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\source-maps.json'
+    at renameSync (node:fs:1033:11)
+    at writeCache (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\project-graph\nx-deps-cache.js:157:38)
+    at getCachedSerializedProjectGraphPromise (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:74:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handleRequestProjectGraph (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24)
+    at async handleResult (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:204:14)
+    at async handleMessage (C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:122:9)
+    at async C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\node_modules\.pnpm\nx@22.0.2_@swc-node+registe_abfd5ce0eef9959838860cb452295f76\node_modules\nx\src\daemon\server\server.js:77:9
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.611Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.612Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.614Z - Time taken for 'total for creating and serializing project graph' 115.55210000000079ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.681Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.681Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 195.3695999999909ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.692Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:10.692Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 116. Response time: 80.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.304Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.378Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.506Z - [REQUEST]: napoli-pwa/.next/react-loadable-manifest.json,napoli-pwa/.next/app-build-manifest.json,napoli-pwa/.next/build-manifest.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.506Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 1.081399999995483
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.670Z - [WATCHER]: 0 file(s) created or restored, 10 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.672Z - [WATCHER]: Processing file changes in outputs
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 17.90089999999327
+Time for 'nx/core/package-json:createNodes' 24.0512000000017
+Time for '@nx/js/typescript:createNodes' 54.80469999999332
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.713Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 64.94170000001031
+Time for 'total for sendMessageToDaemon()' 58.87840000000142
+Time for 'deserialize daemon response' 0.06910000000789296
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.720Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 61.87100000001374
+Time for 'deserialize daemon response' 0.0488000000041211
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.727Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.728Z - Time taken for 'hash changed files from watcher' 23.62180000000808ms
+Time for 'total for sendMessageToDaemon()' 66.83990000000631
+Time for 'deserialize daemon response' 0.06290000000444707
+Time for '@nx/next/plugin:createNodes' 81.44160000000556
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.734Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.744Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.744Z - Handled json message HASH_GLOB. Handling time: 38. Response time: 31.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.745Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.745Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 25.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.745Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.745Z - Handled json message GLOB. Handling time: 5. Response time: 18.
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.799Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.802Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.804Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.805Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.805Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 71.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.806Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.806Z - Handled json message HASH_GLOB. Handling time: 51. Response time: 7.
+Time for 'total for sendMessageToDaemon()' 69.48479999999108
+Time for 'deserialize daemon response' 0.04389999998966232
+Time for '@nx/jest/plugin:createNodes' 187.5734000000084
+Time for 'total for sendMessageToDaemon()' 65.982600000003
+Time for 'deserialize daemon response' 0.06610000001091976
+Time for '@nx/eslint/plugin:createNodes' 191.87360000000626
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.888Z - Time taken for 'build-project-configs' 210.65669999999227ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.890Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.891Z - [REQUEST]: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:12.891Z - [REQUEST]: 
+Time for 'build typescript dependencies' 18.87960000000021
+Time for 'nx/core/package-json:createNodes' 5.941900000005262
+Time for '@nx/js/typescript:createNodes' 18.053800000008778
+Time for 'nx/core/project-json:createNodes' 28.382300000012037
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 18.752800000002026
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.073Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.074Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.074Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.074Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.106Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 167.33789999999863
+Time for 'total for sendMessageToDaemon()' 161.9823000000033
+Time for 'deserialize daemon response' 0.07000000000698492
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.118Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/next/plugin:createNodes' 181.5384000000049
+Time for 'total for sendMessageToDaemon()' 168.40059999999357
+Time for 'deserialize daemon response' 0.06629999999131542
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.124Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.125Z - Time taken for 'total execution time for createProjectGraph()' 200.7149999999965ms
+Time for 'total for sendMessageToDaemon()' 171.36009999999078
+Time for 'deserialize daemon response' 0.07579999999143183
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.129Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.130Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.131Z - [WATCHER]: Processing file changes in outputs
+Time for '@nx/jest/plugin:createNodes' 179.43559999999707
+Time for 'total for sendMessageToDaemon()' 169.04390000000421
+Time for 'deserialize daemon response' 0.052999999999883585
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.133Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.136Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.145Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.145Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 39.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.146Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.146Z - Handled json message HASH_GLOB. Handling time: 9. Response time: 28.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.147Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.148Z - Handled json message GLOB. Handling time: 3. Response time: 24.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.156Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.156Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.156Z - Handled json message HASH_GLOB. Handling time: 1. Response time: 27.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.157Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.157Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 1.
+Time for '@nx/eslint/plugin:createNodes' 207.6432999999961
+Time for 'total for sendMessageToDaemon()' 29.109700000000885
+Time for 'deserialize daemon response' 0.07080000000132713
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.195Z - Time taken for 'build-project-configs' 225.9771000000037ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.197Z - Time taken for '@nx/js/typescript:createDependencies' 15.990200000000186ms
+Time for 'build typescript dependencies' 0.04170000000158325
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.255Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.256Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.257Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.257Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.257Z - Time taken for 'total execution time for createProjectGraph()' 78.04709999999614ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.388Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.441Z - [WATCHER]: napoli-pwa/.next/trace was modified
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.547Z - [WATCHER]: napoli-pwa/.next/trace was modified
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.548Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.550Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.550Z - [REQUEST]: napoli-pwa/.next/trace
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.551Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 1.2859999999927823
+Time for '@nx/js/typescript:createNodes' 17.641699999992852
+Time for 'nx/core/package-json:createNodes' 5.48519999999553
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.756Z - [WATCHER]: 0 file(s) created or restored, 9 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.758Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.765Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 30.819799999997485
+Time for 'total for sendMessageToDaemon()' 25.900399999998626
+Time for 'deserialize daemon response' 0.05920000000332948
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.769Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 25.927900000009686
+Time for 'deserialize daemon response' 0.05400000000372529
+Time for '@nx/next/plugin:createNodes' 45.45909999999276
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 47.51370000001043
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.803Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.804Z - Time taken for 'hash changed files from watcher' 0.6833000000042375ms
+Time for 'total for sendMessageToDaemon()' 57.02279999999155
+Time for 'deserialize daemon response' 0.05649999999150168
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.817Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.820Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.821Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.822Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 57.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.822Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.823Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.823Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 54.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.831Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.832Z - Handled json message GLOB. Handling time: 31. Response time: 29.
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/jest/plugin:createNodes' 112.76430000000983
+Time for 'total for sendMessageToDaemon()' 63.78369999999995
+Time for 'deserialize daemon response' 0.05730000000039581
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.864Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.864Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.864Z - Handled json message HASH_GLOB. Handling time: 10. Response time: 47.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.865Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.866Z - Handled json message HASH_GLOB. Handling time: 30. Response time: 2.
+Time for 'total for sendMessageToDaemon()' 58.250499999994645
+Time for 'deserialize daemon response' 0.05659999999625143
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.889Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+Time for '@nx/eslint/plugin:createNodes' 168.25629999999364
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.929Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.931Z - Recomputing project graph because of 14 updated and 0 deleted files.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.939Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.940Z - [REQUEST]: napoli-pwa/.next/trace,napoli-pwa/.next/server/next-font-manifest.js,napoli-pwa/.next/server/middleware-build-manifest.js,napoli-pwa/.next/build-manifest.json,napoli-pwa/.next/server/next-font-manifest.json,napoli-pwa/.next/static/development/_buildManifest.js,napoli-pwa/.next/react-loadable-manifest.json,napoli-pwa/.next/static/development/_ssgManifest.js,napoli-pwa/.next/server/middleware-react-loadable-manifest.js,napoli-pwa/.next/app-build-manifest.json,napoli-pwa/.next/server/app-paths-manifest.json,napoli-pwa/.next/server/server-reference-manifest.json,napoli-pwa/.next/server/server-reference-manifest.js,napoli-pwa/.next/server/pages-manifest.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.940Z - [REQUEST]: 
+Time for '@nx/js/typescript:createNodes' 16.827499999999418
+Time for 'nx/core/package-json:createNodes' 5.701100000005681
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:13.991Z - Time taken for 'hash changed files from watcher' 8.177200000005541ms
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 17.95539999999164
+Time for 'nx/core/project-json:createNodes' 34.104899999991176
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.082Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 119.8686000000016
+Time for 'total for sendMessageToDaemon()' 114.7676999999967
+Time for 'deserialize daemon response' 0.05849999999918509
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.096Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 123.72900000000664
+Time for 'deserialize daemon response' 0.06690000000526197
+Time for '@nx/next/plugin:createNodes' 142.9149999999936
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.215Z - [REQUEST]: Responding to the client. handleGlob
+Time for 'total for sendMessageToDaemon()' 242.67270000001008
+Time for 'deserialize daemon response' 0.05070000000705477
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.221Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.222Z - Time taken for 'build-project-configs' 34.15219999999681ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.233Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.233Z - Handled json message HASH_GLOB. Handling time: 8. Response time: 151.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.233Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.234Z - Handled json message HASH_GLOB. Handling time: 11. Response time: 138.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.234Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.234Z - Handled json message GLOB. Handling time: 17. Response time: 19.
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for 'build typescript dependencies' 13.264899999994668
+Time for '@nx/jest/plugin:createNodes' 377.9585000000079
+Time for 'total for sendMessageToDaemon()' 240.13679999999295
+Time for 'deserialize daemon response' 0.060899999996763654
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.638Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.638Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.638Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 417.
+Time for 'total for sendMessageToDaemon()' 418.95290000000386
+Time for 'deserialize daemon response' 0.05490000000281725
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.665Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.667Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.667Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.668Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.668Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.668Z - Handled json message HASH_GLOB. Handling time: 285. Response time: 30.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.669Z - Time taken for 'total execution time for createProjectGraph()' 655.329899999997ms
+Time for '@nx/eslint/plugin:createNodes' 748.5134000000107
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.816Z - Time taken for 'build-project-configs' 799.7429999999877ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.820Z - Time taken for '@nx/js/typescript:createDependencies' 34.90679999999702ms
+Time for 'build typescript dependencies' 57.4719000000041
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.947Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.949Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.949Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.949Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.977Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.978Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.980Z - Time taken for 'total for creating and serializing project graph' 1048.5966999999946ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.983Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:14.985Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.082Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.083Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.133Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.133Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 1243.7969999999914ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.135Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.136Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.139Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.151Z - [WATCHER]: 0 file(s) created or restored, 8 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.153Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.153Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 1049. Response time: 175.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.153Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.154Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 100. Response time: 71.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.226Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.229Z - [WATCHER]: 0 file(s) created or restored, 8 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.287Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.287Z - [REQUEST]: napoli-pwa/.next/server/pages-manifest.json,napoli-pwa/.next/server/server-reference-manifest.json,napoli-pwa/.next/types/package.json,napoli-pwa/.next/types/cache-life.d.ts,napoli-pwa/.next/server/app-paths-manifest.json,napoli-pwa/.next/server/server-reference-manifest.js,napoli-pwa/.next/server/interception-route-rewrite-manifest.js,napoli-pwa/.next/server/middleware-manifest.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.287Z - [REQUEST]: 
+Time for '@nx/js/typescript:createNodes' 16.883600000001024
+Time for 'nx/core/package-json:createNodes' 4.720900000000256
+Time for 'nx/core/project-json:createNodes' 1.2115000000048894
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 19.210900000005495
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.423Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 107.43429999999353
+Time for 'total for sendMessageToDaemon()' 101.52539999999863
+Time for 'deserialize daemon response' 0.060899999996763654
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.503Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 177.05899999999383
+Time for 'deserialize daemon response' 0.05879999999888241
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.520Z - [REQUEST]: Responding to the client. handleGlob
+Time for 'total for sendMessageToDaemon()' 184.11279999998806
+Time for 'deserialize daemon response' 0.06329999999434222
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.525Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.526Z - Time taken for 'hash changed files from watcher' 9.84759999999369ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.538Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.538Z - Handled json message HASH_GLOB. Handling time: 17. Response time: 115.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.539Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.539Z - Handled json message HASH_GLOB. Handling time: 75. Response time: 37.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.539Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.539Z - Handled json message GLOB. Handling time: 14. Response time: 20.
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/next/plugin:createNodes' 230.57170000000042
+Time for '@nx/jest/plugin:createNodes' 253.21970000000147
+Time for 'total for sendMessageToDaemon()' 185.99159999999392
+Time for 'deserialize daemon response' 0.049299999998766
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.590Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.591Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.591Z - Handled json message HASH_GLOB. Handling time: 2. Response time: 66.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.592Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.592Z - Handled json message HASH_GLOB. Handling time: 48. Response time: 2.
+Time for 'total for sendMessageToDaemon()' 68.54349999999977
+Time for 'deserialize daemon response' 0.060299999997369014
+Time for '@nx/eslint/plugin:createNodes' 315.1566000000021
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.735Z - Time taken for 'build-project-configs' 358.2118999999948ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.748Z - Time taken for '@nx/js/typescript:createDependencies' 55.16700000000128ms
+Time for 'build typescript dependencies' 63.63409999999567
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.896Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.897Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.898Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.898Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:15.898Z - Time taken for 'total execution time for createProjectGraph()' 194.5127000000066ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.279Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.289Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.290Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.361Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.361Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.363Z - Time taken for 'total for creating and serializing project graph' 72.83199999999488ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.414Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.414Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 134.59440000000177ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.415Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:16.415Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 72. Response time: 54.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.673Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.677Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.821Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.821Z - [REQUEST]: napoli-pwa/.next/types/package.json,napoli-pwa/.next/types/cache-life.d.ts,napoli-pwa/.next/server/server-reference-manifest.json,napoli-pwa/.next/server/server-reference-manifest.js
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.821Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 1.3668000000034226
+Time for 'nx/core/package-json:createNodes' 6.122799999997369
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 17.218999999997322
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.963Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 57.923500000004424
+Time for 'total for sendMessageToDaemon()' 52.306400000001304
+Time for 'deserialize daemon response' 0.0610000000015134
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.976Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/next/plugin:createNodes' 72.83570000001055
+Time for 'total for sendMessageToDaemon()' 61.07690000000002
+Time for 'deserialize daemon response' 0.05919999998877756
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.982Z - [REQUEST]: Responding to the client. handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:18.983Z - Time taken for 'hash changed files from watcher' 23.50669999999809ms
+Time for 'total for sendMessageToDaemon()' 62.68560000001162
+Time for 'deserialize daemon response' 0.06620000000111759
+Time for '@nx/js/typescript:createNodes' 113.16259999999602
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.031Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+Time for '@nx/jest/plugin:createNodes' 115.72669999999925
+Time for 'total for sendMessageToDaemon()' 105.37740000001213
+Time for 'deserialize daemon response' 0.07870000001275912
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.041Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.041Z - Handled json message HASH_GLOB. Handling time: 34. Response time: 78.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.042Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.042Z - Handled json message HASH_GLOB. Handling time: 10. Response time: 66.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.042Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.042Z - Handled json message GLOB. Handling time: 3. Response time: 60.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.063Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.063Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.063Z - Handled json message HASH_GLOB. Handling time: 45. Response time: 32.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.065Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.065Z - Handled json message HASH_GLOB. Handling time: 18. Response time: 2.
+Time for '@nx/eslint/plugin:createNodes' 148.44689999999537
+Time for 'total for sendMessageToDaemon()' 78.03889999999956
+Time for 'deserialize daemon response' 0.052499999990686774
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.105Z - Time taken for 'build-project-configs' 167.9030999999959ms
+Time for 'build typescript dependencies' 0.05760000000009313
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.258Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.259Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.260Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.260Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:19.260Z - Time taken for 'total execution time for createProjectGraph()' 169.15739999999641ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.469Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.485Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.486Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.525Z - Wrote project graph cache to C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo\.nx\workspace-data\project-graph.json
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.525Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.527Z - Time taken for 'total for creating and serializing project graph' 40.01270000000659ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.559Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.560Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 89.722299999994ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.561Z - Done responding to the client project-graph
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:22.561Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 40. Response time: 36.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.596Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.637Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.695Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.697Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.744Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.745Z - [REQUEST]: napoli-pwa/.next/cache/webpack/client-development/0.pack.gz,napoli-pwa/.next/cache/webpack/client-development/index.pack.gz
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.745Z - [REQUEST]: napoli-pwa/.next/cache/webpack/client-development/0.pack.gz_,napoli-pwa/.next/cache/webpack/client-development/index.pack.gz_
+Time for '@nx/js/typescript:createNodes' 26.578999999997905
+Time for 'nx/core/project-json:createNodes' 1.6921000000002095
+Time for 'nx/core/package-json:createNodes' 6.258500000010827
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.803Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/playwright/plugin:createNodes' 46.60330000000249
+Time for 'total for sendMessageToDaemon()' 36.723099999988335
+Time for 'deserialize daemon response' 0.06990000000223517
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.810Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for 'total for sendMessageToDaemon()' 38.8631999999925
+Time for 'deserialize daemon response' 0.0610000000015134
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.817Z - [REQUEST]: Responding to the client. handleGlob
+Time for '@nx/next/plugin:createNodes' 65.93299999998999
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 23.891799999997602
+Time for 'total for sendMessageToDaemon()' 38.58770000000368
+Time for 'deserialize daemon response' 0.05460000000311993
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.826Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.827Z - Time taken for 'hash changed files from watcher' 2.247400000007474ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.829Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.829Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 26.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.829Z - Done responding to the client handleHashGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.830Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 20.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.830Z - Done responding to the client handleGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.830Z - Handled json message GLOB. Handling time: 4. Response time: 13.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.845Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.845Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.845Z - Handled json message HASH_GLOB. Handling time: 3. Response time: 19.
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.846Z - Done responding to the client handleHashMultiGlob
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.846Z - Handled json message HASH_GLOB. Handling time: 4. Response time: 1.
+Time for 'total for sendMessageToDaemon()' 20.60120000000461
+Time for 'deserialize daemon response' 0.05060000000230502
+[33mConvert compiler options from json failed, No inputs were found in config file 'tsconfig.json'. Specified 'include' paths were '["jest.config.ts","src/**/*.test.ts","src/**/*.spec.ts","src/**/*.test.tsx","src/**/*.spec.tsx","src/**/*.test.js","src/**/*.spec.js","src/**/*.test.jsx","src/**/*.spec.jsx","src/**/*.d.ts"]' and 'exclude' paths were '["node_modules","jest.config.ts","**/*.spec.ts","**/*.test.ts","src/**/*.spec.ts","src/**/*.test.ts"]'.[39m
+Time for '@nx/jest/plugin:createNodes' 92.21880000000237
+Time for 'total for sendMessageToDaemon()' 40.10560000000987
+Time for 'deserialize daemon response' 0.05930000000807922
+Time for '@nx/eslint/plugin:createNodes' 109.86329999999725
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.908Z - Time taken for 'build-project-configs' 135.26310000001104ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.914Z - Time taken for '@nx/js/typescript:createDependencies' 15.054999999993015ms
+Time for 'build typescript dependencies' 17.94659999999567
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.968Z - [SYNC]: collect registered sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.970Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.970Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.970Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:33.970Z - Time taken for 'total execution time for createProjectGraph()' 71.26510000000417ms
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.067Z - [WATCHER]: Processing file changes in outputs
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.080Z - [WATCHER]: .gitignore was modified
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.083Z - [WATCHER]: Stopping the watcher for C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo (sources)
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.084Z - Closed a connection. Number of open connections: 7
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 6
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 5
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 4
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 3
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 2
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.085Z - Closed a connection. Number of open connections: 1
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.086Z - Closed a connection. Number of open connections: 0
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.086Z - [WATCHER]: Stopping the watcher for C:\Users\VAIO\apps\aaa-proyectos-propios\___napoli-monorepo\napoli-monorepo (outputs)
+[NX v22.0.2 Daemon Server] - 2025-10-30T00:57:40.117Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

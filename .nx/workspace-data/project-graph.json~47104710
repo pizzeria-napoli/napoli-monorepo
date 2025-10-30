@@ -16565,11 +16565,6 @@
     "napoli-pwa": [
       {
         "source": "napoli-pwa",
-        "target": "npm:next",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa",
         "target": "npm:@eslint/js",
         "type": "static"
       },
@@ -16596,6 +16591,11 @@
       {
         "source": "napoli-pwa",
         "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "napoli-pwa",
+        "target": "npm:next",
         "type": "static"
       },
       {
@@ -39779,5 +39779,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761785842487
+  "computedAt": 1761785830511
 }
