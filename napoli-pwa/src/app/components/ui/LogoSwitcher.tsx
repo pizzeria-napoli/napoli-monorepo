@@ -1,3 +1,5 @@
+// napoli-pwa/src/app/components/ui/LogoSwitcher.tsx
+
 "use client";
 
 import Image from "next/image";
@@ -10,8 +12,9 @@ export function LogoSwitcher() {
   const isMounted = useIsMounted();
 
   if (!isMounted) {
-    // Render a placeholder or nothing on the server to avoid mismatch
-    return <div style={{ width: 120, height: 40 }} />;
+    // Renderiza un placeholder para evitar el "layout shift" y errores de hidratación.
+    // Sus dimensiones coinciden con las del logo final.
+    return <div style={{ width: 120, height: 40 }} aria-hidden="true" />;
   }
 
   const logoSrc = resolvedTheme === "dark" ? IMAGES.logo.light : IMAGES.logo.dark;
@@ -22,7 +25,7 @@ export function LogoSwitcher() {
       alt="Pizzaria Napoli Logo"
       width={120}
       height={40}
-      priority
+      priority // Esencial para el LCP (Largest Contentful Paint)
     />
   );
 }

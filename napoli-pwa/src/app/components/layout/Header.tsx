@@ -22,7 +22,6 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const isMounted = useIsMounted();
 
-  // Si no está montado, renderiza un placeholder para evitar errores de hidratación
   if (!isMounted) {
     return (
       <header
@@ -35,7 +34,6 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 z-50 w-full bg-background/80 shadow-md backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Logo */}
         <Link
           href="/"
           className="flex items-center space-x-2"
@@ -44,7 +42,6 @@ export function Header() {
           <LogoSwitcher />
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden items-center space-x-6 md:flex">
           {navLinks.map((link) => (
             <a
@@ -57,7 +54,6 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Right-side Actions */}
         <div className="flex items-center space-x-2">
           <Button
             asChild
@@ -74,7 +70,6 @@ export function Header() {
 
           <ThemeToggle />
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -95,7 +90,6 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
@@ -104,7 +98,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className="block rounded-md px-3 py-2 text-base font-medium text-foreground hover:bg-accent hover:text-accent-foreground"
-                onClick={() => setIsMenuOpen(false)} // Close the menu on click
+                onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
               </a>

@@ -50,76 +50,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "11309362834336059819"
-      },
-      {
-        "file": "package.json",
-        "hash": "11922866489457955667"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".github/workflows/ci.yml",
+        "hash": "7725873038738926441"
       },
       {
         "file": ".gitignore",
         "hash": "1235412395327563553"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": ".prettierignore",
         "hash": "15257874146256109495"
       },
       {
-        "file": ".github/workflows/ci.yml",
-        "hash": "7725873038738926441"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "16582136680635935809"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "3953419788949464085"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "14527920065038084644"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "nx.json",
-        "hash": "9134231155409267263"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "17432272996252744211"
-      },
-      {
-        "file": "error.log",
-        "hash": "13790753209625932028"
-      },
-      {
-        "file": "eslint.config.mjs.md",
-        "hash": "9162807372325761004"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "18381147985760447715"
+        "file": ".vscode/extensions.json",
+        "hash": "11309362834336059819"
       },
       {
         "file": "README.md",
         "hash": "7187600589018277345"
       },
       {
+        "file": "error.log",
+        "hash": "13790753209625932028"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10117111808949871792"
+      },
+      {
+        "file": "eslint.config.mjs.md",
+        "hash": "9162807372325761004"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9134231155409267263"
+      },
+      {
+        "file": "package.json",
+        "hash": "13505476463537121733"
+      },
+      {
         "file": "packages/.gitkeep",
         "hash": "3244421341483603138"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16492601655866789305"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "17432272996252744211"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18381147985760447715"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16582136680635935809"
       }
     ],
     "projectFileMap": {
@@ -158,95 +158,8 @@
       ],
       "napoli-pwa": [
         {
-          "file": "napoli-pwa/.next/app-build-manifest.json",
-          "hash": "6642808631538785885"
-        },
-        {
-          "file": "napoli-pwa/.next/build-manifest.json",
-          "hash": "2702609462139627143"
-        },
-        {
-          "file": "napoli-pwa/.next/cache/.rscinfo",
-          "hash": "11312339166817820000"
-        },
-        {
-          "file": "napoli-pwa/.next/package.json",
-          "hash": "11338307439248427064"
-        },
-        {
-          "file": "napoli-pwa/.next/react-loadable-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/app-paths-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/interception-route-rewrite-manifest.js",
-          "hash": "10484309360224763022"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-build-manifest.js",
-          "hash": "10087042376963020870"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-manifest.json",
-          "hash": "9889576824779923310"
-        },
-        {
-          "file": "napoli-pwa/.next/server/middleware-react-loadable-manifest.js",
-          "hash": "9185069726031651908"
-        },
-        {
-          "file": "napoli-pwa/.next/server/next-font-manifest.js",
-          "hash": "16541577805185552134"
-        },
-        {
-          "file": "napoli-pwa/.next/server/next-font-manifest.json",
-          "hash": "11891788324563068681"
-        },
-        {
-          "file": "napoli-pwa/.next/server/pages-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "napoli-pwa/.next/server/server-reference-manifest.js",
-          "hash": "13062913855343812063"
-        },
-        {
-          "file": "napoli-pwa/.next/server/server-reference-manifest.json",
-          "hash": "14406042154372532513"
-        },
-        {
-          "file": "napoli-pwa/.next/static/chunks/polyfills.js",
-          "hash": "8152964857117933876"
-        },
-        {
-          "file": "napoli-pwa/.next/static/development/_buildManifest.js",
-          "hash": "13063724784290855366"
-        },
-        {
-          "file": "napoli-pwa/.next/static/development/_ssgManifest.js",
-          "hash": "17018243955171961484"
-        },
-        {
-          "file": "napoli-pwa/.next/trace",
-          "hash": "4457314262092490314"
-        },
-        {
-          "file": "napoli-pwa/.next/types/cache-life.d.ts",
-          "hash": "12858368115349027927",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "napoli-pwa/.next/types/package.json",
-          "hash": "6094546126370684104"
-        },
-        {
           "file": "napoli-pwa/eslint.config.mjs",
-          "hash": "14237085438149304156",
+          "hash": "18070635558624471379",
           "deps": [
             "npm:@eslint/js",
             "npm:@nx/eslint-plugin",
@@ -295,24 +208,28 @@
           "hash": "11633641009750673081"
         },
         {
-          "file": "napoli-pwa/public/images/about/about-pizzaiolo-trabalhando-550x550.jpg",
+          "file": "napoli-pwa/public/images/about/pizzaiolo-trabalhando-550x550.jpg",
           "hash": "11409954024764911635"
         },
         {
-          "file": "napoli-pwa/public/images/about/pizzaiolo-trabalhando-550x550.jpg",
-          "hash": "3244421341483603138"
+          "file": "napoli-pwa/public/images/cards/ELO_Marca_principal_RGB-01.png",
+          "hash": "12697130397668829289"
         },
         {
-          "file": "napoli-pwa/public/images/cards/mastercard.png",
-          "hash": "3244421341483603138"
+          "file": "napoli-pwa/public/images/cards/ELO_Marca_principal_RGB-02.png",
+          "hash": "13907985435003013611"
         },
         {
-          "file": "napoli-pwa/public/images/cards/visa.png",
-          "hash": "3244421341483603138"
+          "file": "napoli-pwa/public/images/cards/Visa_Brandmark_Blue_RGB_2021.png",
+          "hash": "1835858487334275870"
         },
         {
-          "file": "napoli-pwa/public/images/gallery/cortando-pizza-400x400.jpg",
-          "hash": "3244421341483603138"
+          "file": "napoli-pwa/public/images/cards/Visa_Brandmark_White_RGB_2021.png",
+          "hash": "17943921555567790445"
+        },
+        {
+          "file": "napoli-pwa/public/images/cards/mc_vrt_opt_rev_4c_3x.png",
+          "hash": "3186673618600557386"
         },
         {
           "file": "napoli-pwa/public/images/gallery/gallery-cortando-pizza-400x400.jpg",
@@ -347,40 +264,8 @@
           "hash": "1670694253944273707"
         },
         {
-          "file": "napoli-pwa/public/images/gallery/pizza-calabresa-detalhe-400x400.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-doce-chocolate-400x300.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-e-coca-cola-400x400.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-especial-nozes-400x300.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-mussarela-forno-400x400.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-queijo-derretido-400x400.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "napoli-pwa/public/images/gallery/pizza-variedade-400x400.jpg",
-          "hash": "3244421341483603138"
-        },
-        {
           "file": "napoli-pwa/public/images/hero/ambiente-restaurante-1-1920x1080.jpg",
           "hash": "8693907691488291457"
-        },
-        {
-          "file": "napoli-pwa/public/images/hero/chef-preparando-pizza-1920x1080.jpg",
-          "hash": "3244421341483603138"
         },
         {
           "file": "napoli-pwa/public/images/hero/chef-preparando-pizza-1920x1080.jpg.jpg",
@@ -395,24 +280,12 @@
           "hash": "14065016455765430539"
         },
         {
-          "file": "napoli-pwa/public/images/logo-color.svg",
-          "hash": "1581808421116564425"
+          "file": "napoli-pwa/public/images/logo-dark.jpg",
+          "hash": "18015452332647429470"
         },
         {
-          "file": "napoli-pwa/public/images/logo-dark-rec.svg",
-          "hash": "4014679037615382086"
-        },
-        {
-          "file": "napoli-pwa/public/images/logo-dark.svg",
-          "hash": "17855630047101635343"
-        },
-        {
-          "file": "napoli-pwa/public/images/logo-light.svg",
-          "hash": "5237804780116168302"
-        },
-        {
-          "file": "napoli-pwa/public/images/menu-mussarela-400x300-2.jpg",
-          "hash": "1556712884237360891"
+          "file": "napoli-pwa/public/images/logo-light.jpg",
+          "hash": "18015452332647429470"
         },
         {
           "file": "napoli-pwa/public/images/menu/menu-calabresa-acebolada-400x300.jpg",
@@ -455,10 +328,6 @@
           "hash": "15081234463689688464"
         },
         {
-          "file": "napoli-pwa/public/images/ssl-badge.png",
-          "hash": "3244421341483603138"
-        },
-        {
           "file": "napoli-pwa/specs/index.spec.tsx",
           "hash": "2873936096691223229",
           "deps": [
@@ -475,7 +344,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/layout/Footer.tsx",
-          "hash": "5057867159730697388",
+          "hash": "15007164047510105510",
           "deps": [
             "npm:next",
             "npm:lucide-react",
@@ -484,7 +353,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/layout/Header.tsx",
-          "hash": "7959114190538266153",
+          "hash": "8188533061316079837",
           "deps": [
             "npm:react",
             "npm:next",
@@ -493,7 +362,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/sections/home/About.tsx",
-          "hash": "944743039671976700",
+          "hash": "14221895441542973283",
           "deps": [
             "npm:next",
             "npm:lucide-react"
@@ -501,7 +370,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/sections/home/Contact.tsx",
-          "hash": "2065471727524220903"
+          "hash": "5089630829560876926"
         },
         {
           "file": "napoli-pwa/src/app/components/sections/home/Features.tsx",
@@ -521,12 +390,11 @@
         },
         {
           "file": "napoli-pwa/src/app/components/sections/home/Hero.tsx",
-          "hash": "4064310713554834648",
+          "hash": "340549810631126759",
           "deps": [
             "npm:react",
             "npm:next",
-            "npm:lucide-react",
-            "npm:embla-carousel-autoplay"
+            "npm:lucide-react"
           ]
         },
         {
@@ -593,6 +461,14 @@
           ]
         },
         {
+          "file": "napoli-pwa/src/app/components/ui/GoogleMap.tsx",
+          "hash": "16573825957828892745",
+          "deps": [
+            "npm:@react-google-maps/api",
+            "npm:react"
+          ]
+        },
+        {
           "file": "napoli-pwa/src/app/components/ui/Input.tsx",
           "hash": "3133892952449546350",
           "deps": [
@@ -601,7 +477,7 @@
         },
         {
           "file": "napoli-pwa/src/app/components/ui/LogoSwitcher.tsx",
-          "hash": "15300407175808584624",
+          "hash": "15463660242644331571",
           "deps": [
             "npm:next",
             "npm:next-themes"
@@ -615,6 +491,14 @@
             "npm:@radix-ui/react-navigation-menu",
             "npm:class-variance-authority",
             "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "napoli-pwa/src/app/components/ui/PaymentMethods.tsx",
+          "hash": "16307072877512928270",
+          "deps": [
+            "npm:next",
+            "npm:next-themes"
           ]
         },
         {
@@ -693,15 +577,15 @@
         },
         {
           "file": "napoli-pwa/src/app/lib/branding.ts",
-          "hash": "6968266227002814232"
+          "hash": "13751315311834920851"
         },
         {
           "file": "napoli-pwa/src/app/lib/images.ts",
-          "hash": "3954227259391973902"
+          "hash": "16877634571872087542"
         },
         {
           "file": "napoli-pwa/src/app/lib/menu-data.ts",
-          "hash": "4866109370977080353"
+          "hash": "1645962983959986844"
         },
         {
           "file": "napoli-pwa/src/app/lib/utils.ts",
@@ -734,5 +618,5 @@
       ]
     }
   },
-  "externalNodesHash": "2676128074141060924"
+  "externalNodesHash": "2158246719952173028"
 }

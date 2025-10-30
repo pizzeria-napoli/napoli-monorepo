@@ -8,7 +8,7 @@ import typescriptEslint from "typescript-eslint";
 import nextPlugin from "@next/eslint-plugin-next";
 import prettierConfig from "eslint-config-prettier";
 
-const baseDirectory = dirname(fileURLToPath(import.meta.url));
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 /**
  * @type {import('eslint').Linter.FlatConfig[]}
@@ -18,7 +18,18 @@ const config = [
   js.configs.recommended,
   ...typescriptEslint.configs.recommended,
 
-  // Configuración de Nx y sus reglas de boundaries
+  // NIVELACIÓN SOBERANA Y DEFINITIVA: Se establece el contexto de TS para todo el proyecto.
+  // Esto elimina el error "No tsconfigRootDir was set" de forma permanente.
+  {
+    languageOptions: {
+      parserOptions: {
+        project: ["tsconfig.json"], // Apunta al tsconfig.json dentro de este directorio
+        tsconfigRootDir: __dirname, // Le dice al parser que la raíz para encontrar tsconfig.json es el directorio actual
+      },
+    },
+  },
+
+  // Configuración de Nx (reglas del monorepo)
   {
     plugins: { "@nx": nx },
     rules: {
@@ -35,7 +46,7 @@ const config = [
     },
   },
 
-  // Configuración específica de React y TypeScript para el proyecto
+  // Configuración de React/TypeScript específica de Nx
   ...nx.configs["flat/react-typescript"],
 
   // Configuración de Next.js
@@ -48,17 +59,18 @@ const config = [
     },
   },
 
-  // LA NIVELACIÓN DEFINITIVA: Ignorar todos los archivos de configuración
+  // Ignorar archivos de configuración y directorios de build
   {
     ignores: [
       ".next/**/*",
       "**/*.config.js",
       "**/*.config.mjs",
+      "jest.config.ts",
       "jest.preset.js",
     ],
   },
 
-  // Integración con Prettier (debe ser la última)
+  // Integración con Prettier (siempre debe ser la última para anular reglas de estilo)
   prettierConfig,
 ];
 

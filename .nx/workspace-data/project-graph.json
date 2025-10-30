@@ -2214,6 +2214,24 @@
         "hash": "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="
       }
     },
+    "npm:@googlemaps/js-api-loader": {
+      "type": "npm",
+      "name": "npm:@googlemaps/js-api-loader",
+      "data": {
+        "version": "1.16.8",
+        "packageName": "@googlemaps/js-api-loader",
+        "hash": "sha512-CROqqwfKotdO6EBjZO/gQGVTbeDps5V7Mt9+8+5Q+jTg5CRMi3Ii/L9PmV3USROrt2uWxtGzJHORmByxyo9pSQ=="
+      }
+    },
+    "npm:@googlemaps/markerclusterer": {
+      "type": "npm",
+      "name": "npm:@googlemaps/markerclusterer",
+      "data": {
+        "version": "2.5.3",
+        "packageName": "@googlemaps/markerclusterer",
+        "hash": "sha512-x7lX0R5yYOoiNectr10wLgCBasNcXFHiADIBdmn7jQllF2B5ENQw5XtZK+hIw4xnV0Df0xhN4LN98XqA5jaiOw=="
+      }
+    },
     "npm:@humanfs/core": {
       "type": "npm",
       "name": "npm:@humanfs/core",
@@ -4122,6 +4140,33 @@
         "hash": "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw=="
       }
     },
+    "npm:@react-google-maps/api": {
+      "type": "npm",
+      "name": "npm:@react-google-maps/api",
+      "data": {
+        "version": "2.20.7",
+        "packageName": "@react-google-maps/api",
+        "hash": "sha512-ys7uri3V6gjhYZUI43srHzSKDC6/jiKTwHNlwXFTvjeaJE3M3OaYBt9FZKvJs8qnOhL6i6nD1BKJoi1KrnkCkg=="
+      }
+    },
+    "npm:@react-google-maps/infobox": {
+      "type": "npm",
+      "name": "npm:@react-google-maps/infobox",
+      "data": {
+        "version": "2.20.0",
+        "packageName": "@react-google-maps/infobox",
+        "hash": "sha512-03PJHjohhaVLkX6+NHhlr8CIlvUxWaXhryqDjyaZ8iIqqix/nV8GFdz9O3m5OsjtxtNho09F/15j14yV0nuyLQ=="
+      }
+    },
+    "npm:@react-google-maps/marker-clusterer": {
+      "type": "npm",
+      "name": "npm:@react-google-maps/marker-clusterer",
+      "data": {
+        "version": "2.20.0",
+        "packageName": "@react-google-maps/marker-clusterer",
+        "hash": "sha512-tieX9Va5w1yP88vMgfH1pHTacDQ9TgDTjox3tLlisKDXRQWdjw+QeVVghhf5XqqIxXHgPdcGwBvKY6UP+SIvLw=="
+      }
+    },
     "npm:@rollup/plugin-babel": {
       "type": "npm",
       "name": "npm:@rollup/plugin-babel",
@@ -5137,6 +5182,15 @@
         "version": "7.2.0",
         "packageName": "@types/glob",
         "hash": "sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA=="
+      }
+    },
+    "npm:@types/google.maps": {
+      "type": "npm",
+      "name": "npm:@types/google.maps",
+      "data": {
+        "version": "3.58.1",
+        "packageName": "@types/google.maps",
+        "hash": "sha512-X9QTSvGJ0nCfMzYOnaVs/k6/4L+7F5uCS+4iUmkLEls6J9S/Phv+m/i3mDeyc49ZBgwab3EFO1HEoBY7k98EGQ=="
       }
     },
     "npm:@types/http-cache-semantics": {
@@ -10143,6 +10197,15 @@
         "hash": "sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw=="
       }
     },
+    "npm:invariant": {
+      "type": "npm",
+      "name": "npm:invariant",
+      "data": {
+        "version": "2.2.4",
+        "packageName": "invariant",
+        "hash": "sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA=="
+      }
+    },
     "npm:ipaddr.js@1.9.1": {
       "type": "npm",
       "name": "npm:ipaddr.js@1.9.1",
@@ -11158,6 +11221,15 @@
         "version": "3.3.5",
         "packageName": "jsx-ast-utils",
         "hash": "sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ=="
+      }
+    },
+    "npm:kdbush": {
+      "type": "npm",
+      "name": "npm:kdbush",
+      "data": {
+        "version": "4.0.2",
+        "packageName": "kdbush",
+        "hash": "sha512-WbCVYJ27Sz8zi9Q7Q0xHC+05iwkm3Znipc2XTlrnJbsHMYktW4hPhXUE8Ys1engBrvffoSCqbil1JQAa7clRpA=="
       }
     },
     "npm:keygrip": {
@@ -15120,6 +15192,15 @@
         "hash": "sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA=="
       }
     },
+    "npm:supercluster": {
+      "type": "npm",
+      "name": "npm:supercluster",
+      "data": {
+        "version": "8.0.1",
+        "packageName": "supercluster",
+        "hash": "sha512-IiOea5kJ9iqzD2t7QJq/cREyLHTtSmUT6gQsweojg9WH2sYJqZK9SswTu6jrscO6D1G5v5vYZ9ru/eq85lXeZQ=="
+      }
+    },
     "npm:supports-color@7.2.0": {
       "type": "npm",
       "name": "npm:supports-color@7.2.0",
@@ -16484,11 +16565,6 @@
     "napoli-pwa": [
       {
         "source": "napoli-pwa",
-        "target": "npm:next",
-        "type": "static"
-      },
-      {
-        "source": "napoli-pwa",
         "target": "npm:@eslint/js",
         "type": "static"
       },
@@ -16515,6 +16591,11 @@
       {
         "source": "napoli-pwa",
         "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "napoli-pwa",
+        "target": "npm:next",
         "type": "static"
       },
       {
@@ -16575,6 +16656,11 @@
       {
         "source": "napoli-pwa",
         "target": "npm:@radix-ui/react-dropdown-menu",
+        "type": "static"
+      },
+      {
+        "source": "napoli-pwa",
+        "target": "npm:@react-google-maps/api",
         "type": "static"
       },
       {
@@ -19145,6 +19231,18 @@
       {
         "source": "npm:@floating-ui/react-dom",
         "target": "npm:react-dom",
+        "type": "static"
+      }
+    ],
+    "npm:@googlemaps/markerclusterer": [
+      {
+        "source": "npm:@googlemaps/markerclusterer",
+        "target": "npm:fast-deep-equal",
+        "type": "static"
+      },
+      {
+        "source": "npm:@googlemaps/markerclusterer",
+        "target": "npm:supercluster",
         "type": "static"
       }
     ],
@@ -23512,6 +23610,48 @@
       {
         "source": "npm:@radix-ui/react-visually-hidden",
         "target": "npm:@types/react-dom",
+        "type": "static"
+      }
+    ],
+    "npm:@react-google-maps/api": [
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:@googlemaps/js-api-loader",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:@googlemaps/markerclusterer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:@react-google-maps/infobox",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:@react-google-maps/marker-clusterer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:@types/google.maps",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:invariant",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-google-maps/api",
+        "target": "npm:react-dom",
         "type": "static"
       }
     ],
@@ -31092,6 +31232,13 @@
         "type": "static"
       }
     ],
+    "npm:invariant": [
+      {
+        "source": "npm:invariant",
+        "target": "npm:loose-envify",
+        "type": "static"
+      }
+    ],
     "npm:is-array-buffer": [
       {
         "source": "npm:is-array-buffer",
@@ -37545,6 +37692,13 @@
         "type": "static"
       }
     ],
+    "npm:supercluster": [
+      {
+        "source": "npm:supercluster",
+        "target": "npm:kdbush",
+        "type": "static"
+      }
+    ],
     "npm:supports-color@7.2.0": [
       {
         "source": "npm:supports-color@7.2.0",
@@ -39625,5 +39779,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761777776196
+  "computedAt": 1761785805997
 }

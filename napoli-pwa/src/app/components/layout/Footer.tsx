@@ -1,19 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { Facebook, Instagram } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
-import { IMAGES } from "../../lib/images";
 import { BRAND_INFO } from "../../lib/branding";
 import { LogoSwitcher } from "../ui/LogoSwitcher";
+import { PaymentMethods } from "../ui/PaymentMethods";
 
 export function Footer() {
   return (
     <footer className="bg-neutral-900 py-12 text-gray-400 md:py-16">
       <div className="container mx-auto grid grid-cols-1 gap-8 text-center md:grid-cols-3 md:text-left">
-        {/* Logo and Copyright */}
         <div className="flex flex-col items-center md:items-start">
           <Link href="/" className="mb-4">
             <LogoSwitcher />
@@ -25,7 +23,6 @@ export function Footer() {
           </p>
         </div>
 
-        {/* Locations and Contact */}
         <div>
           <h3 className="mb-4 font-bold uppercase tracking-wider text-white">
             Nossas Unidades
@@ -59,62 +56,48 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Social Media and Legal */}
         <div className="flex flex-col items-center md:items-end">
           <h3 className="mb-4 font-bold uppercase tracking-wider text-white">
             Siga-nos
           </h3>
           <div className="flex space-x-4">
-            <a
-              href={BRAND_INFO.socials.facebook}
-              className="text-gray-400 hover:text-white"
-              aria-label="Facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Facebook className="h-6 w-6" />
-            </a>
-            <a
-              href={BRAND_INFO.socials.instagram}
-              className="text-gray-400 hover:text-white"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram className="h-6 w-6" />
-            </a>
-            <a
-              href={BRAND_INFO.whatsapp.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
-              aria-label="WhatsApp"
-            >
-              <FaWhatsapp className="h-6 w-6" />
-            </a>
+            {BRAND_INFO.socials.facebook && BRAND_INFO.socials.facebook !== "#" && (
+              <a
+                href={BRAND_INFO.socials.facebook}
+                className="text-gray-400 hover:text-white"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook className="h-6 w-6" />
+              </a>
+            )}
+            {BRAND_INFO.socials.instagram && BRAND_INFO.socials.instagram !== "#" && (
+              <a
+                href={BRAND_INFO.socials.instagram}
+                className="text-gray-400 hover:text-white"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="h-6 w-6" />
+              </a>
+            )}
+            {BRAND_INFO.whatsapp.link && (
+              <a
+                href={BRAND_INFO.whatsapp.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white"
+                aria-label="WhatsApp"
+              >
+                <FaWhatsapp className="h-6 w-6" />
+              </a>
+            )}
           </div>
-          <div className="mt-6">
-            <Image
-              src={IMAGES.icons.ssl}
-              alt="SSL Secure"
-              width={100}
-              height={50}
-            />
-            <div className="mt-2 flex justify-center md:justify-start">
-              <Image
-                src={IMAGES.icons.visa}
-                alt="Visa"
-                width={40}
-                height={25}
-              />
-              <Image
-                src={IMAGES.icons.mastercard}
-                alt="Mastercard"
-                width={40}
-                height={25}
-              />
-            </div>
-            <p className="mt-1 text-xs">
+          <div className="mt-6 w-full space-y-2">
+            <PaymentMethods />
+            <p className="mt-1 text-center text-xs md:text-right">
               PAGUE COM CARTÃO DE CRÉDITO NA SUA CASA!
             </p>
           </div>

@@ -1,3 +1,5 @@
+// napoli-pwa/src/app/components/sections/home/About.tsx
+
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
@@ -31,13 +33,16 @@ export function AboutSection() {
             </Button>
           </div>
           <div className="flex items-center justify-center">
-            <Image
-              src={IMAGES.about.chef}
-              width={550}
-              height={550}
-              alt="Nosso Chef"
-              className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
-            />
+            {/* Este Guardián de Contrato asegura que la imagen solo se renderice si la ruta es válida */}
+            {IMAGES.about.chef && (
+              <Image
+                src={IMAGES.about.chef} // Consumirá la ruta soberana: /images/about/pizzaiolo-trabalhando-550x550.jpg
+                width={550}
+                height={550}
+                alt="Chef pizzaiolo da Pizzaria Napoli em Florianópolis"
+                className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
+              />
+            )}
           </div>
         </div>
       </div>

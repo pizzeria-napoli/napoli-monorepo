@@ -2275,6 +2275,16 @@
     "type": "static"
   },
   {
+    "source": "npm:@googlemaps/markerclusterer",
+    "target": "npm:fast-deep-equal",
+    "type": "static"
+  },
+  {
+    "source": "npm:@googlemaps/markerclusterer",
+    "target": "npm:supercluster",
+    "type": "static"
+  },
+  {
     "source": "npm:@humanfs/node",
     "target": "npm:@humanfs/core",
     "type": "static"
@@ -6377,6 +6387,46 @@
   {
     "source": "npm:@radix-ui/react-visually-hidden",
     "target": "npm:@types/react-dom",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:@googlemaps/js-api-loader",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:@googlemaps/markerclusterer",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:@react-google-maps/infobox",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:@react-google-maps/marker-clusterer",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:@types/google.maps",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:invariant",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:react",
+    "type": "static"
+  },
+  {
+    "source": "npm:@react-google-maps/api",
+    "target": "npm:react-dom",
     "type": "static"
   },
   {
@@ -13225,6 +13275,11 @@
     "type": "static"
   },
   {
+    "source": "npm:invariant",
+    "target": "npm:loose-envify",
+    "type": "static"
+  },
+  {
     "source": "npm:is-array-buffer",
     "target": "npm:call-bind",
     "type": "static"
@@ -19037,6 +19092,11 @@
   {
     "source": "npm:sucrase",
     "target": "npm:ts-interface-checker",
+    "type": "static"
+  },
+  {
+    "source": "npm:supercluster",
+    "target": "npm:kdbush",
     "type": "static"
   },
   {
