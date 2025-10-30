@@ -138,3 +138,7 @@ Una aplicación separada (o una sección protegida) para que el personal del res
 [ ] Internacionalización (i18n):
 Adaptar el contenido para múltiples idiomas, empezando por inglés y español, siguiendo las directrices del manifiesto de 12 pilares.
 Este README fue generado con la asistencia de IA y está alineado con la documentación soberana del proyecto.
+
+---
+
+Author: RaZ Podestá - MetaShark Tech.
