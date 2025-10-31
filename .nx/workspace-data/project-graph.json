@@ -7,20 +7,30 @@
         "root": "napoli-pwa",
         "targets": {
           "build": {
-            "executor": "@nx/next:build",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "defaultConfiguration": "production",
             "options": {
-              "outputPath": "dist/napoli-pwa"
+              "cwd": "napoli-pwa",
+              "tty": false,
+              "command": "next build"
             },
-            "configurations": {
-              "development": {
-                "outputPath": "dist/napoli-pwa"
-              },
-              "production": {}
-            },
+            "dependsOn": [
+              "^build"
+            ],
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              {
+                "externalDependencies": [
+                  "next"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/napoli-pwa/.next/!(cache)/**/*",
+              "{workspaceRoot}/napoli-pwa/.next/!(cache)"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {},
             "parallelism": true
           },
           "dev": {
@@ -81,35 +91,48 @@
             "parallelism": true
           },
           "lint": {
-            "executor": "@nx/eslint:lint",
-            "options": {},
-            "configurations": {},
-            "parallelism": true
-          },
-          "serve": {
-            "executor": "@nx/next:server",
-            "defaultConfiguration": "development",
+            "cache": true,
             "options": {
-              "buildTarget": "napoli-pwa:build",
-              "dev": true
+              "cwd": "napoli-pwa",
+              "command": "eslint ."
             },
-            "configurations": {
-              "development": {
-                "buildTarget": "napoli-pwa:build:development",
-                "dev": true
-              },
-              "production": {
-                "buildTarget": "napoli-pwa:build:production",
-                "dev": false
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/napoli-pwa/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "pnpm exec eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
               }
             },
-            "parallelism": true,
-            "continuous": true
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
           }
         },
         "name": "napoli-pwa",
         "$schema": "../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "src",
+        "sourceRoot": "napoli-pwa",
         "projectType": "application",
         "tags": [],
         "implicitDependencies": []
@@ -39432,5 +39455,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761862869180
+  "computedAt": 1761869925223
 }

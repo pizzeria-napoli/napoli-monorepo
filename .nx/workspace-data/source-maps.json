@@ -8,6 +8,46 @@
       "napoli-pwa/next.config.mjs",
       "@nx/next/plugin"
     ],
+    "targets.build": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
     "targets.dev": [
       "napoli-pwa/next.config.mjs",
       "@nx/next/plugin"
@@ -88,6 +128,14 @@
       "napoli-pwa/next.config.mjs",
       "@nx/next/plugin"
     ],
+    "targets.build-deps": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "napoli-pwa/next.config.mjs",
+      "@nx/next/plugin"
+    ],
     "targets.watch-deps": [
       "napoli-pwa/next.config.mjs",
       "@nx/next/plugin"
@@ -112,6 +160,66 @@
       "napoli-pwa/next.config.mjs",
       "@nx/next/plugin"
     ],
+    "targets.lint": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "napoli-pwa/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
     "name": [
       "napoli-pwa/project.json",
       "nx/core/project-json"
@@ -128,107 +236,11 @@
       "napoli-pwa/project.json",
       "nx/core/project-json"
     ],
+    "// targets": [
+      "napoli-pwa/project.json",
+      "nx/core/project-json"
+    ],
     "tags": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.defaultConfiguration": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.outputPath": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.outputPath": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.executor": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.defaultConfiguration": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.buildTarget": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.dev": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development.buildTarget": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development.dev": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.buildTarget": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.dev": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "napoli-pwa/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
       "napoli-pwa/project.json",
       "nx/core/project-json"
     ]

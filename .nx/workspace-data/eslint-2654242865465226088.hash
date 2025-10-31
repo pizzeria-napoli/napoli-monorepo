@@ -1,5 +1,5 @@
 {
-  "11927349582038937533": {
+  "12127732754815340446": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -41,50 +41,8 @@
       }
     }
   },
-  "8441492518423770665": {
-    "napoli-pwa-e2e": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa-e2e"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "15035279079765094627": {},
-  "10246599122740550847": {
+  "6136636906592401006": {},
+  "16601427288856172030": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -126,137 +84,8 @@
       }
     }
   },
-  "8525759612807709089": {},
-  "7123459720201800010": {
-    "napoli-pwa-e2e": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa-e2e"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "15979159109371010222": {},
-  "15995272575316339954": {
-    "napoli-pwa-e2e": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa-e2e"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "5621900564916086786": {},
-  "2287544443628614063": {
-    "napoli-pwa-e2e": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa-e2e"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "14817805261420161845": {},
-  "10714159705781607352": {
+  "4137216488986651674": {},
+  "3455644160132981795": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -298,8 +127,8 @@
       }
     }
   },
-  "492314029943101245": {},
-  "9357432764688295669": {
+  "3446180527742865554": {},
+  "430466343988792217": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -341,8 +170,8 @@
       }
     }
   },
-  "10403034519677008145": {},
-  "9943954602901120836": {
+  "17410284021207652959": {},
+  "8835733026950994136": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -384,8 +213,8 @@
       }
     }
   },
-  "3320672766956357843": {},
-  "466247408599816237": {
+  "11748491395466204703": {},
+  "17393133229126323980": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -427,8 +256,8 @@
       }
     }
   },
-  "15848420815722872270": {},
-  "10070622758475343653": {
+  "7589374007037572951": {},
+  "2333874170582917914": {
     "napoli-pwa": {
       "targets": {
         "lint": {
@@ -470,239 +299,6 @@
       }
     }
   },
-  "12415439189035851638": {},
-  "8724561918163504966": {
-    "napoli-pwa-e2e": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa-e2e"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa-e2e/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "10430641427061826870": {},
-  "15835399138232674975": {},
-  "13825405956941916877": {},
-  "5636590529515895008": {
-    "napoli-pwa": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "12842385725463730978": {},
-  "7220237591287427000": {},
-  "7438051610886705390": {},
-  "7575125560975940378": {},
-  "4176618420881709473": {},
-  "2395310966257216187": {},
-  "11121609598881705718": {},
-  "15618792805249919794": {},
-  "3387766280910022593": {},
-  "13892839977085375167": {},
-  "13472881950272669471": {},
-  "13499418349577309785": {},
-  "17946098399501831285": {
-    "napoli-pwa": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "5788788257298896223": {},
-  "15453677119072505723": {
-    "napoli-pwa": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "16608389808116043148": {},
-  "12580861072352042209": {
-    "napoli-pwa": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "napoli-pwa"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/eslint.config.mjs",
-            "{workspaceRoot}/napoli-pwa/eslint.config.mjs",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ],
-          "metadata": {
-            "technologies": [
-              "eslint"
-            ],
-            "description": "Runs ESLint on project",
-            "help": {
-              "command": "pnpm exec eslint --help",
-              "example": {
-                "options": {
-                  "max-warnings": 0
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "6190460747990973261": {},
-  "8600440326953880696": {},
-  "14440390398148303814": {},
-  "1139259798217495637": {},
-  "5770772769535058297": {},
-  "522496039649546029": {},
-  "10610427617282983075": {}
+  "159505428467044316": {},
+  "8331750800888152616": {}
 }

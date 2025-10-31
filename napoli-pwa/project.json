@@ -1,44 +1,20 @@
-{
-  "name": "napoli-pwa",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "src",
-  "projectType": "application",
-  "tags": [],
-  "targets": {
-    "build": {
-      "executor": "@nx/next:build",
-      "outputs": ["{options.outputPath}"],
-      "defaultConfiguration": "production",
-      "options": {
-        "outputPath": "napoli-pwa/.next" 
-      },
-      "configurations": {
-        "development": {
-          "outputPath": "dist/napoli-pwa"
-        },
-        "production": {}
-      }
+// napoli-pwa/project.json (reemplaza la sección "build" completa)
+"build": {
+  "executor": "@nx/next:build",
+  "outputs": ["{projectRoot}/.next"],
+  "defaultConfiguration": "production",
+  "options": {
+    "buildTarget": "napoli-pwa:build:production",
+    "outputPath": "napoli-pwa"
+  },
+  "configurations": {
+    "development": {
+      "outputPath": "napoli-pwa"
     },
-    "serve": {
-      "executor": "@nx/next:server",
-      "defaultConfiguration": "development",
-      "options": {
-        "buildTarget": "napoli-pwa:build",
-        "dev": true
-      },
-      "configurations": {
-        "development": {
-          "buildTarget": "napoli-pwa:build:development",
-          "dev": true
-        },
-        "production": {
-          "buildTarget": "napoli-pwa:build:production",
-          "dev": false
-        }
-      }
-    },
-    "lint": {
-      "executor": "@nx/eslint:lint"
+    "production": {
+      "outputPath": "napoli-pwa"
     }
   }
-}
+},
+
+

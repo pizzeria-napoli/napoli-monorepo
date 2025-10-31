@@ -59,7 +59,7 @@
       },
       {
         "file": "README.md",
-        "hash": "7187600589018277345"
+        "hash": "3423920866809847088"
       },
       {
         "file": "error.log",
@@ -136,7 +136,7 @@
         },
         {
           "file": "napoli-pwa/project.json",
-          "hash": "14894352106593377061"
+          "hash": "94998874089264725"
         },
         {
           "file": "napoli-pwa/project.json.md",
@@ -408,6 +408,10 @@
           ]
         },
         {
+          "file": "napoli-pwa/src/app/components/ui/HealthCheck.tsx",
+          "hash": "5488604418089261633"
+        },
+        {
           "file": "napoli-pwa/src/app/components/ui/Input.tsx",
           "hash": "3133892952449546350",
           "deps": [
@@ -536,7 +540,7 @@
         },
         {
           "file": "napoli-pwa/src/app/page.tsx",
-          "hash": "16154943535666236800"
+          "hash": "275349882300084165"
         },
         {
           "file": "napoli-pwa/tailwind.config.js",
